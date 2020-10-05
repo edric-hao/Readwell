@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Readwell</string>
+
+    <!-- Login and Sign Up strings -->
+    <string name="username">Username</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="pass_specs">At least 8 characters</string>
+    <string name="forgot_pass">Forgot password?</string>
+    <string name="login">Log In</string>
+    <string name="signup">Sign Up</string>
+    <string name="ask_to_signup1">Don\'t have an account?</string>
+    <string name="ask_to_signup2">Sign Up here</string>
+    <string name="ask_to_login1">Already have an account?</string>
+    <string name="ask_to_login2">Log In here</string>
+    <string name="tnc">By continuing, you are agreeing to our Terms of Use and Privacy Policy</string>
+    <string name="title_activity_main_window">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_book">Books</string>
+    <string name="title_search">Search</string>
+
+    <!-- Add something here -->
+</resources>

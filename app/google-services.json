@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "9031101830",
+    "firebase_url": "https://readwell-c8362.firebaseio.com",
+    "project_id": "readwell-c8362",
+    "storage_bucket": "readwell-c8362.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9031101830:android:48849edc857a60f4f91007",
+        "android_client_info": {
+          "package_name": "ph.edu.dlsu.Readwell"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "9031101830-8u60dcaoo0692sbl0cu16n7s6edn8k0p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXOMmfZiL_69llOADw-GWnt9Isl0GZXmQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "9031101830-8u60dcaoo0692sbl0cu16n7s6edn8k0p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

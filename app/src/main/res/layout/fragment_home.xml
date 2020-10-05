@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/book_border">
+
+        <TextView
+            android:id="@+id/book_genre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:gravity="center_horizontal"
+            android:text="Highly Rated in Insert Genre"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/book_genre"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:id="@+id/book_image"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="2dp"
+                android:contentDescription="Book Cover"
+                android:scaleType="centerCrop" />
+
+            <RelativeLayout
+                android:layout_width="240dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/book_image">
+
+                <TextView
+                    android:id="@+id/book_title"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:text="Title"
+                    android:textColor="@color/textColor"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/book_author"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/book_title"
+                    android:layout_marginTop="2dp"
+                    android:text="Author"
+                    android:textColor="@color/secondaryTextColor"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/book_rating"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/book_author"
+                    android:layout_marginTop="2dp"
+                    android:text="Rating"
+                    android:textColor="@color/secondaryTextColor"
+                    android:textSize="14dp" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

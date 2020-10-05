@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/booksRead"
+        android:background="@drawable/books_read"
+        android:layout_width="120dp"
+        android:layout_height="250dp"
+        android:layout_margin="5dp"/>
+    <Button
+        android:id="@+id/booksReading"
+        android:layout_width="120dp"
+        android:layout_height="250dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/currently_reading"
+        android:layout_toRightOf="@+id/booksRead" />
+    <Button
+        android:id="@+id/booksToRead"
+        android:layout_width="120dp"
+        android:layout_height="250dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/wants"
+        android:layout_toRightOf="@+id/booksReading"/>
+
+</RelativeLayout>
